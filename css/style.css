@@ -1,0 +1,108 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #ececec8f;
+}
+
+
+
+header {
+   color: white;
+   padding: 10px 0;
+   text-align: center;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   background-color: #ee1c09;
+   justify-content: space-around;
+   border-radius: 10px;
+   list-style: none;
+}
+
+button {
+   background-color: #ee1c09;
+   padding: 5px;
+   color: aliceblue;
+   border: none;
+}
+
+header img {
+   border-radius: 20px;
+
+}
+
+header .logo h1 {
+   margin: 0;
+}
+
+header {
+   align-items: center;
+}
+
+
+header nav ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+}
+
+header nav ul li {
+   display: inline;
+   margin: 0 25px;
+}
+
+header nav ul li a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+
+}
+
+ul a {
+   text-decoration: none;
+   color: white;
+}
+
+.featured h2 {
+   text-align: center;
+   font-size: 35px;
+   text-decoration: underline;
+}
+
+.manga-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   gap: 20px;
+}
+
+.manga-item {
+   background-color: white;
+   padding: 15px;
+   border-radius: 10px;
+   text-align: center;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.manga-item img {
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+}
+
+.manga-item h3 {
+   margin: 10px 0 5px;
+   font-size: 18px;
+}
+
+footer {
+   background-color: #000;
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+   width: 100%;
+}
+
+a {
+   color: aliceblue;
+}

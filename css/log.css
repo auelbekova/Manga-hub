@@ -1,0 +1,90 @@
+body {
+   background-color: rgba(247, 22, 6, 0.06208420868347342);
+   display: flex;
+   justify-content: center;
+   background: url(https://i.pinimg.com/564x/a3/f9/24/a3f9242fd4943183a09f08667308b8c0.jpg);
+}
+
+.login {
+   border: 1px solid black;
+   width: 700px;
+   min-height: 600px;
+   /* background: url(https://i.pinimg.com/564x/a3/f9/24/a3f9242fd4943183a09f08667308b8c0.jpg); */
+   color: aliceblue;
+   border-radius: 20px;
+   box-shadow: 1px 7px 900px red;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+   margin-top: 100px;
+   position: relative;
+   color: red;
+}
+
+a {
+   color: aliceblue;
+   align-self: center;
+}
+
+.bg {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   left: 0;
+   filter: blur(4px);
+}
+
+form {
+   display: block;
+   box-sizing: border-box;
+   padding: 40px;
+   width: 100%;
+   height: 100%;
+   backdrop-filter: brightness(40%);
+   flex-direction: column;
+   display: flex;
+   gap: 5px;
+}
+
+
+.with {
+   font-weight: normal;
+   font-size: 40px;
+   text-shadow: 5px 5px 15px white;
+   margin-top: -60px;
+   text-align: center;
+}
+
+label {
+   color: aliceblue;
+   text-transform: uppercase;
+   font-size: 14px;
+   letter-spacing: 3px;
+   padding-left: 50px;
+}
+
+input {
+   background-color: #e4e0e0;
+   height: 50px;
+   width: 500px;
+   line-height: 40px;
+   border-radius: 20px;
+   padding: 0px 20px;
+   border: none;
+   margin-bottom: 20px;
+   align-self: center;
+   color: aliceblue;
+}
+
+button {
+   background: #ee1c09;
+   height: 40px;
+   width: 200px;
+   line-height: 40px;
+   border-radius: 40px;
+   align-self: center;
+   border: none;
+   margin: 10px 0px;
+   color: aliceblue;
+}
